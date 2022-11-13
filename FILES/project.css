@@ -1,0 +1,57 @@
+body {
+background-color: rgb(241, 241, 247);
+padding: 0;
+margin: 0;
+}
+
+.nav-bar {
+    overflow: hidden;
+    margin: 0;
+    width: auto;
+    height: 100%;   
+  }
+  .nav-bar li {
+    display: inline;
+    font-size: 20px;
+    font-family:lato;
+    }
+
+   .nav-bar a {
+   color:rgb(34, 32, 32);
+   text-decoration: none;
+   float: right;
+   padding: 14px 16px;
+ }
+ .nav-bar a:hover {
+      background-color: rgb(77, 77, 245);
+      color: white;
+ }
+ h1 {
+    font-size: 1.625rem;
+    font-family: 'Sacramento', cursive;
+    text-align: center;
+}
+hr {
+    border: dotted rgb(77, 77, 245) 6px;
+    border-bottom: none;
+    width: 60%;
+    margin: 50px auto;
+  }
+
+.UI {
+    width: auto;
+    height: 200px;
+}
+.column { 
+    float: left;
+    width: 24%;
+    padding: 5px;
+    text-align: center;
+    
+  }
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+    padding-left: 15%;
+  }

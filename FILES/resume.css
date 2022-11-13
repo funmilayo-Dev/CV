@@ -1,0 +1,53 @@
+body {
+    background-color: rgb(255, 255, 255);
+    margin: 0;
+    padding: 0;
+}
+header {
+    position: relative;
+    background-color: rgb(236, 228, 228);
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding-top: 1%;
+    text-align: center;
+}
+.intro {
+    padding: 2%;
+    padding-top: 1%;
+}
+h1 {
+    text-align: center;
+}
+.Education{
+   padding-left: 2%;
+}
+.Work{
+    padding-left: 2%;
+ }
+.Reference {
+    text-align: center;
+}
+button {
+    background-color: rgb(56, 163, 163);
+    border: none;
+    color: rgb(184, 56, 56);
+    padding: 15px 32px;
+    text-align: center; 
+    display: inline-block;
+    font-size: 20px;
+    margin-left: 45%;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  }
+button:hover {
+    background-color: grey;
+    color: black;
+  }
+  .footer {
+    margin-top: 1%;
+    position: bottom;
+    padding-bottom: 0;
+    height: 100%;
+    text-align:center;
+    }
